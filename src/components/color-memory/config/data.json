@@ -1,0 +1,25 @@
+{
+  "intro": {
+    "heading": "Test Your Color Accuracy",
+    "desc": "Put your knowledge of color to the test! I'll show you a randomly generated swatch of color for 10 seconds. Do you think you could memorize that color and pick it out from a lineup of similar colors?",
+    "cta-text": "Let's Get Started!"
+  },
+  "game": {
+    "phase-1": {
+      "instructions": "I will show you a color in the box below for 10 seconds. Do your best to memorize that color before the time limit expires. Begin by selecting a difficulty...",
+      "difficulty": {
+        "easy": "Warm-Up",
+        "normal": "Normal",
+        "hard": "Expert"
+      },
+      "count-down": 3
+    },
+    "phase-2": {
+      "instructions": "Memorize this color...",
+      "timer": 10
+    },
+    "phase-3": {
+      "instructions": "Select the color you just saw."
+    }
+  }
+}

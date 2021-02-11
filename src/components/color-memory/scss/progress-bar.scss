@@ -1,0 +1,30 @@
+.color-memory__phase2--countdown {
+  background-color: $lightGray;
+  height: 25px;
+  margin-top: 25px;
+  width: 100%;
+  position: relative;
+  .progress {
+    border-radius: 0;
+    height: 100%;
+    animation: progressbar-countdown;
+    /* Placeholder, this will be updated using javascript */
+    animation-duration: 40s;
+    /* We stop in the end */
+    animation-iteration-count: 1;
+    /* Stay on pause when the animation is finished finished */
+    animation-fill-mode: forwards;
+    /* We start paused, we start the animation using javascript */
+    animation-play-state: paused;
+    /* We want a linear animation, ease-out is standard */
+    animation-timing-function: linear;
+  }
+}
+@keyframes progressbar-countdown {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}

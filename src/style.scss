@@ -1,0 +1,50 @@
+@import '~bootstrap';
+
+$lightGray: #f2f2f2;
+$darkGray: #222;
+$darkBlue: #3F2B96;
+$mediumBlue: lighten($darkBlue, 20%);
+$lightBlue: #A8C0FF;
+$mediumGold: #BBA017;
+$lightGold: #f6d365;
+$redGold: #d67358;
+
+$defaultWhite: #fff;
+$defaultSectionBGColor: $lightGray;
+$defaultTextColor: $darkGray;
+$defaultLinkColor: $mediumBlue;
+
+$defaultPadding: 30px;
+$defaultFontSize: 16px;
+$betaFontSize: 14px;
+$omegaFontSize: 12px;
+
+@mixin primaryCTAButton() {
+  background-image: linear-gradient(to right, #f6d365 0%, #d67358 51%, #f6d365 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: unset;
+  -webkit-text-fill-color: unset; 
+  -moz-background-clip: unset;
+  -moz-text-fill-color: unset;
+  border-bottom: 2px solid darken($mediumBlue, 10%);
+  border-left: 2px solid darken($mediumBlue, 10%);
+  color: $defaultTextColor;
+  font-weight: 700;
+  display: inline-block;
+  padding: 10px $defaultPadding;
+  margin-top: 5px;
+  transition: background-position 250ms;
+  &:hover {
+    background-image: linear-gradient(to right, #f6d365 0%, #d67358 51%, #f6d365 100%);
+    background-position: right center;
+    transition: background-position 250ms;
+    text-decoration: none;
+  }
+}
+
+// COLOR ACCURACY GAME
+@import './components/color-memory/scss/styles.scss';
+
+body {
+  overflow-x: hidden;
+}
