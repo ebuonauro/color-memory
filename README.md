@@ -14,3 +14,6 @@ Then, simply run start
 ```npm start```
 
 Couldn't be simpler than that right?
+
+# Demo and explanationi
+https://color-explorer.netlify.app/
