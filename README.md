@@ -16,4 +16,4 @@ Then, simply run start
 Couldn't be simpler than that right?
 
 # Demo and explanation
-https://color-explorer.netlify.app/
+https://color-memory.vercel.app/
